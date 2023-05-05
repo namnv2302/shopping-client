@@ -1,0 +1,36 @@
+.wrapper {
+  width: var(--width-content);
+
+  .inner {
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 62px;
+
+    .input {
+      height: 32px;
+      width: 288px;
+      border: none;
+      outline: none;
+      color: #8a8fb9;
+      border-radius: 0;
+      padding-right: 0;
+      border: 2px solid #e7e6ef;
+      margin: 14px 0;
+
+      & input::placeholder {
+        color: #8a8fb9;
+      }
+    }
+
+    .input-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 88px;
+      height: 30px;
+      background-color: #fb2e86;
+      color: var(--white-color);
+      border-radius: 3px;
+    }
+  }
+}
